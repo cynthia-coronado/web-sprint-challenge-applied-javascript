@@ -48,7 +48,7 @@ const tabsAppender = (selector) => {
       tabs.appendChild(Tabs(topicsList))
     })
     .catch(error => {
-      console.log('ERROR')
+      console.log('TAB ERROR')
     })
 }
 

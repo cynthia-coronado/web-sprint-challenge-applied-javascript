@@ -75,5 +75,8 @@ const cardAppender = (selector) => {
         })
       })
     })
+    .catch(error => {
+      console.log('CARD ERROR')
+    })
 }
 export { Card, cardAppender }
